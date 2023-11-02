@@ -1,1 +1,1 @@
-web: python3 -m flask run -p $PORT
+web: python3 -m flask run -p $PORT --host=0.0.0.0
