@@ -12,25 +12,26 @@ Run it: python3 -m flask run --debug
 
 Add route, template and json examples
 
-Deploy to Heroku
+Optional:
+    Deploy to Heroku
 
-Install Heroku
+    Install Heroku
 
-Install git
+    Install git
 
-Make Procfile
+    Make Procfile
 
-pip freeze
+    pip freeze
 
-Git init
+    Git init
 
-Set up .gitignore
+    Set up .gitignore
 
-git commit
+    git commit
 
-Create Heroku app: heroku create durhack-demo --buildpack heroku/python
+    Create Heroku app: heroku create durhack-demo --buildpack heroku/python
 
-Git push
+    Git push
 
 Making external requests
 
@@ -44,6 +45,9 @@ Writing to a database
 
 Reading from a database
 
-Update gitignore with db
+Optional:
+    Update gitignore with db
 
-Update database URL
+    Update database URL
+
+    Provsion Database: heroku addons:create heroku-postgresql:mini
