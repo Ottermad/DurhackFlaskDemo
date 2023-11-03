@@ -51,3 +51,11 @@ Optional:
     Update database URL
 
     Provsion Database: heroku addons:create heroku-postgresql:mini
+
+Deploy with Render:
+    * Sign up 
+    * Verify email
+    * Create and push to Github
+    * Create new PostgresSQL in UI
+    * Create new web app in UI
+    * Add env var for DATABASE URl
